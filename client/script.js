@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from the server -> bot's respponse
 
-  const respponse = await fetch('http://localhost:5000', {
+  const respponse = await fetch('https://codex-jusy.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
